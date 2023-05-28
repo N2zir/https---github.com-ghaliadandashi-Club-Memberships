@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-flow: column nowrap;
+    background-image:url("../media/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: white;
+    border-bottom: 5px solid black;
+}
+
+nav ul {
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    gap: 100px;
+    padding: 0;
+
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size:40px;
+    letter-spacing: 1px;
+    text-shadow: 0px 3px 1px black,
+    0px 4px 1px black;
+    background-color: black;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-top:5px;
+    box-shadow: 0px 0px 3px white inset ,0px 0px 2px black inset;
+}
+
+nav ul a:hover{
+    background-color:#135f9a;
+    box-shadow: 0px 3px 8px black;
+    margin:-7px;
+}
+
+.userpro{
+    margin-left: auto;
+}
+
+nav .userpro a{
+    padding:10px;
+    background-color:white;
+    font-size:15px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Righteous', cursive;
+    border-radius:10px;
+}
+
+.container{
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.container1{
+    align-self:flex-end;
+    margin-top:15px;
+    margin-right:25px;
+}
+.container1 button{
+    background-color:#ff2500;
+    padding:10px 30px;
+    border:none;
+    font-size:20px;
+    border-radius:30%;
+    color:white;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 1px black;
+    box-shadow:0px 2px 1px black;
+    cursor:pointer;
+}
+.container2 {
+    align-self:center;
+    margin-top: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 70px;
+    padding: 10px;
+}
+
+.container2 .item {
+    background-color: white;
+    border: 7px solid black;
+    box-shadow: 0px 7px 0px black;
+    border-radius: 55px;
+    padding: 30px 45px;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    position: relative;
+}
+
+.container2 .item .icon {
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    cursor: pointer;
+}
+
+.container2 .item .planname {
+    margin: -10px 15px 0px 0px;
+    text-align:center;
+}
+
+.container2 .item .plandesc{
+    font-size:15px;
+}
+.applybtn {
+    background-color: #ff2500;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 30%;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 1px black;
+    box-shadow: 0px 2px 1px black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.applybtn:hover {
+    background-color: #ff4d37;
+    box-shadow: 0px 3px 8px black;
+    margin: -5px;
+}
+/* Add these CSS styles for the buttons */
+
+button.additembtn {
+    background-color: #ff2500;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 30%;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 1px black;
+    box-shadow: 0px 2px 1px black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.additembtn:hover {
+    background-color: #ff4d37;
+    box-shadow: 0px 3px 8px black;
+    margin: -5px;
+}
+
+button.applybtn {
+    background-color: #ff2500;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 30%;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 1px black;
+    box-shadow: 0px 2px 1px black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.applybtn:hover {
+    background-color: #ff4d37;
+    box-shadow: 0px 3px 8
+
+}
+
+
+
+
+
+
+
+

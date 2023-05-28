@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../media/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #7d7b92, #797990, #76778d, #72758b, #6f7388, #6d7187, #6a7085, #686e84, #666c83, #646a83, #636882, #616681);
+    padding:5px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 10px rgba(0,0,0,.25) inset, 2px 2px 10px grey inset;
+}
+.container .header:not[img]{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .header img{
+    transform: rotate(-15deg);
+    margin-bottom:-40px;
+    margin-left: -15px;
+}
+
+.container section h2{
+    color:white;
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    text-shadow: 0px 1px 1px #a09ca2,
+    0px 3px 1px rgba(37,36,34,255);
+}
+
+.container #register{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e4eef7;
+    padding:35px 60px;
+    gap:20px;
+}
+
+.container #register input:not([type="submit"]){
+    border-radius:5px;
+    width:350px;
+    padding:10px;
+    border:none;
+    box-shadow:0px 0px 1px 1px #a09ca2;
+    outline:none;
+    font-family: Ubuntu;
+}
+
+.container #register input[type="submit"]{
+    width:150px;
+    cursor: pointer;
+    padding:6px 5px;
+    border-radius: 7px;
+    border:none;
+    box-shadow:2px 1.5px 2px 1px #16231f;
+    text-shadow: 0px 1px 1px #a09ca2,
+                    0px 2px 1px rgba(37,36,34,255);
+    color:white;
+    font-family: 'Lilita One', cursive;
+    background-color: #38e24b;
+    font-size: 20px;
+}
+
+#register .almem{
+    font-family: 'Lilita One', cursive;
+}
+#register .almem a{
+    color:#38e24b;
+}
+
+.error{
+    display:none;
+    font-size:13px;
+    margin:-6px;
+    padding:7px 30px;
+    background-color: rgba(219, 0, 0, 0.52);
+    border-radius: 5px;
+    font-family: Ubuntu;
+}
